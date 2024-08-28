@@ -12,20 +12,6 @@
       "groupName": "jest packages"
     },
     {
-      "matchUpdateTypes": ["patch"],
-      "excludePackagePatterns": ["engine-files-v\\d+", "@akashic/", "eslint", "jest"],
-      "groupName": "patch dependencies"
-    },
-    {
-      "matchUpdateTypes": ["minor"],
-      "excludePackagePatterns": ["engine-files-v\\d+", "@akashic/", "eslint", "jest"],
-      "groupName": "minor dependencies"
-    },
-    {
-      "matchUpdateTypes": ["major"],
-      "excludePackagePatterns": ["engine-files-v1", "engine-files-v2"]
-    },
-    {
       "matchPackageNames": ["engine-files-v1"],
       "allowedVersions": "<2.0",
       "groupName": "engine-files@1",
