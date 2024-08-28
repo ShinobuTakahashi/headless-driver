@@ -27,6 +27,10 @@
       "groupName": "minor dependencies"
     },
     {
+      "matchUpdateTypes": ["major"],
+      "excludePackagePatterns": ["engine-files-v2"]
+    },
+    {
       "matchPackageNames": ["engine-files-v1"],
       "allowedVersions": "<2.0",
       "groupName": "engine-files@1",
