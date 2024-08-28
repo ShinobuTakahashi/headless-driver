@@ -2,7 +2,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
-      "excludePackagePatterns": ["engine-files-v1"],
+      "excludePackagePatterns": ["engine-files-v1"]
     },
     {
       "matchPackageNames": ["engine-files-v1"],
