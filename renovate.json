@@ -9,7 +9,7 @@
     },
     {
       "matchPackageNames": ["engine-files-v1"],
-      "allowedVersions": "<2.0",
+      "allowedVersions": "<2.0.0",
       "groupName": "engine-files@1",
       "schedule": "at any time"
     }
