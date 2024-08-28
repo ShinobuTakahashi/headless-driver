@@ -1,10 +1,6 @@
 {
   "extends": [
-    "github>ShinobuTakahashi/renovate-config",
-    "github>ShinobuTakahashi/renovate-config:engineUpdate",
-    "github>ShinobuTakahashi/renovate-config:groupPatchMinor",
-    "github>ShinobuTakahashi/renovate-config:bumpAkashicPatch",
-    "github>ShinobuTakahashi/renovate-config//engineFilesAlias/default"
+    "github>ShinobuTakahashi/renovate-config"
   ],
   "automerge": true,
   "packageRules": [
