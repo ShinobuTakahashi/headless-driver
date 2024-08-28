@@ -25,6 +25,12 @@
       "matchUpdateTypes": ["minor"],
       "excludePackagePatterns": ["engine-files-v\\d+", "@akashic/", "eslint", "jest"],
       "groupName": "minor dependencies"
+    },
+    {
+      "matchPackageNames": ["engine-files-v1"],
+      "allowedVersions": "<2.0",
+      "groupName": "engine-files@1",
+      "schedule": "at any time"
     }
   ]
 }
