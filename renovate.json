@@ -2,7 +2,6 @@
   "extends": [
     "github>ShinobuTakahashi/renovate-config"
   ],
-  "automerge": true,
   "packageRules": [
     {
       "matchPackagePatterns": ["eslint"],
@@ -24,7 +23,7 @@
     },
     {
       "matchUpdateTypes": ["major"],
-      "excludePackagePatterns": ["engine-files-v2"]
+      "excludePackagePatterns": ["engine-files-v1", "engine-files-v2"]
     },
     {
       "matchPackageNames": ["engine-files-v1"],
