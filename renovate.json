@@ -1,16 +1,5 @@
 {
-  "extends": [
-    "github>ShinobuTakahashi/renovate-config"
-  ],
   "packageRules": [
-    {
-      "matchPackagePatterns": ["eslint"],
-      "groupName": "eslint packages"
-    },
-    {
-      "matchPackagePatterns": ["jest"],
-      "groupName": "jest packages"
-    },
     {
       "matchPackageNames": ["engine-files-v1"],
       "allowedVersions": "<2.0",
