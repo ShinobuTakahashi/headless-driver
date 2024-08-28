@@ -1,4 +1,7 @@
 {
+  "extends": [
+    "github>ShinobuTakahashi/renovate-config"
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": ["major"],
